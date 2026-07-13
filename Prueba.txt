@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Constructora Moderna</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">🏠 Constructora M&J</h1>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h2>Construimos tu futuro</h2>
+      <p>Diseños modernos, seguros y sostenibles</p>
+      <a href="#contacto" class="btn">Solicita una cotización</a>
+    </div>
+  </header>
+
+  <!-- Sección Servicios -->
+  <section id="servicios" class="section">
+    <h2>Servicios</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Diseño Arquitectónico</h3>
+        <p>Planos modernos y funcionales adaptados a tus necesidades.</p>
+      </div>
+      <div class="card">
+        <h3>Construcción</h3>
+        <p>Materiales de alta calidad y mano de obra especializada.</p>
+      </div>
+      <div class="card">
+        <h3>Remodelaciones</h3>
+        <p>Transformamos tus espacios para darles nueva vida.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Proyectos -->
+  <section id="proyectos" class="section dark">
+    <h2>Proyectos Destacados</h2>
+    <div class="gallery">
+      <img src="https://picsum.photos/400/300?random=1" alt="Proyecto 1">
+      <img src="https://picsum.photos/400/300?random=2" alt="Proyecto 2">
+      <img src="https://picsum.photos/400/300?random=3" alt="Proyecto 3">
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="section">
+    <h2>Contáctanos</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea placeholder="Tu mensaje" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Constructora M&J | Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
