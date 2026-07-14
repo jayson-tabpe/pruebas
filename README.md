@@ -1,9 +1,25 @@
-# Proyecto de Pruebas
+# Constructora M&J
 
-Este repositorio contiene mi proyecto de pruebas para aprender Git y GitHub.  
-Incluye ejemplos básicos en HTML, CSS y JavaScript.
+Sitio web de una empresa constructora con Bootstrap 5.
 
-## 🚀 Cómo usar
+## Caracteristicas
+
+- Navbar responsiva con enlaces suaves
+- Seccion de servicios, proyectos y casas construidas
+- Modales con detalles de cada casa
+- Formulario de contacto con animacion de envio
+- Animaciones al hacer scroll
+
+## Tecnologias
+
+- HTML5
+- Bootstrap 5.3.2
+- JavaScript vanilla
+
+## Como usar
+
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/jayson-talpe/pruebas.git
+   git clone https://github.com/jayson-tabpe/pruebas.git
+   ```
+2. Abrir `index.html` en el navegador
